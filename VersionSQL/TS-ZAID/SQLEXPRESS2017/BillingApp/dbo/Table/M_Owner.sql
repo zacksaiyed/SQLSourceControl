@@ -9,6 +9,7 @@ CREATE TABLE [dbo].[M_Owner](
 	[GSTNo] [varchar](50) NULL,
 	[Juridication] [varchar](50) NULL,
 	[BusinessType] [varchar](250) NULL,
+	[ZZZZ] [nchar](10) NULL,
  CONSTRAINT [PK_M_Owner] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
