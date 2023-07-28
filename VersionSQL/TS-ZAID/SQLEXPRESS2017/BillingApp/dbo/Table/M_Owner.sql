@@ -10,6 +10,7 @@ CREATE TABLE [dbo].[M_Owner](
 	[Juridication] [varchar](50) NULL,
 	[BusinessType] [varchar](250) NULL,
 	[ZZZZ] [nchar](10) NULL,
+	[AddColumnFromFeature2] [int] NULL,
  CONSTRAINT [PK_M_Owner] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
